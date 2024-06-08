@@ -1,0 +1,180 @@
+﻿@model AdminCreatePersonDto
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/AdminLayout.cshtml";
+}
+
+
+
+<div class="content-body">
+
+    <div class="row page-titles mx-0">
+        <div class="col p-md-0">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="javascript:void(0)">Dashboard</a></li>
+                <li class="breadcrumb-item active"><a href="javascript:void(0)">Home</a></li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="form-validation">
+                            <form class="form-valide" asp-action="SaveMemberInfo" asp-controller="AdminMemberInfo" method="post">
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-username">
+                                        Ad <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control" asp-for="Name" placeholder="Üyenin adını girin..">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-username">
+                                        Soyad <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control" asp-for="Surname" placeholder="Üyenin Soyadını girin..">
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-phoneus">
+                                        Telefon Numarası<span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control" asp-for="PhoneNumber" placeholder="Üyenin telefon numarasını girin..">
+                                    </div>
+                                </div>
+                                @* il *@
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="il">
+                                        Şehir <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <select id="il" asp-for="CityID" class="form-control"></select>
+                                    </div>
+                                </div>
+
+                                @* ilçe *@
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="ilce">
+                                        İlçe <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <select class="form-control" id="ilce" asp-for="DistrictID"></select>
+                                    </div>
+                                </div>
+
+                                @* mahalle *@
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="mahalle">
+                                        Mahalle <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <select class="form-control" id="mahalle" asp-for="NeighborhoodID"></select>
+                                    </div>
+                                </div>
+                                @*cadde sokak*@
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-suggestions">
+                                        Cadde/Sokak/Bina <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <textarea class="form-control" id="val-suggestions" asp-for="AddressDescription" rows="5" placeholder="Cadde/Sokak/Apartman/No"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-lg-8 ml-auto">
+                                        <button type="submit" class="btn btn-primary">Kaydet</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+
+    $(document).ready(function () {
+        var sehirler = @Html.Raw(ViewBag.Cities);
+        var ilceler = @Html.Raw(ViewBag.Districts);
+        var mahalleler = @Html.Raw(ViewBag.Neighborhoods);
+
+        console.log("Şehirler:", sehirler); // Debugging için
+            console.log("İlçeler:", ilceler); // Debugging için
+            console.log("Mahalleler:", mahalleler); // Debugging için
+        // Şehir dropdown'u doldur
+        $("#il").append("<option value=''>Seçiniz</option>");
+        $.each(sehirler, function (index, sehir) {
+            $("#il").append("<option value='" + sehir.CityID + "'>" + sehir.CityName + "</option>");
+        });
+
+        // İlçe dropdown'u doldur
+        $("#il").change(function () {
+            var secilenIlId = $(this).val();
+            $("#ilce").empty().append("<option value=''>Seçiniz</option>");
+            $.each(ilceler, function (index, ilce) {
+                if (ilce.CityID == secilenIlId) {
+                    $("#ilce").append("<option value='" + ilce.DistrictID + "'>" + ilce.DistrictName + "</option>");
+                }
+            });
+            $("#mahalle").empty().append("<option value=''>Seçiniz</option>");
+        });
+
+        // Mahalle dropdown'u doldur
+        $("#ilce").change(function () {
+            var secilenIlceId = $(this).val();
+            $("#mahalle").empty().append("<option value=''>Seçiniz</option>");
+            $.each(mahalleler, function (index, mahalle) {
+                if (mahalle.DistrictId == secilenIlceId) {
+                    $("#mahalle").append("<option value='" + mahalle.NeighborhoodId + "'>" + mahalle.NeighborhoodName + "</option>");
+                }
+            });
+        });
+    });
+
+
+    // $(document).ready(function () {
+    //     var sehirler = @Html.Raw(ViewBag.Cities);
+    //     var ilceler = @Html.Raw(ViewBag.Districts);
+    //     var mahalleler = @Html.Raw(ViewBag.Neighborhoods);
+
+    //     // Şehir dropdown'u doldur
+    //     $("#il").append("<option value=''>Seçiniz</option>");
+    //     $.each(sehirler, function (index, sehir) {
+    //         $("#il").append("<option value='" + sehir.CityID + "'>" + sehir.CityName + "</option>");
+    //     });
+
+    //     // İlçe dropdown'u doldur
+    //     $("#il").change(function () {
+    //         var secilenIlId = $(this).val();
+    //         $("#ilce").empty().append("<option value=''>Seçiniz</option>");
+    //         $.each(ilceler, function (index, ilce) {
+    //             if (ilce.CityID == secilenIlId) {
+    //                 $("#ilce").append("<option value='" + ilce.DistrictID + "'>" + ilce.DistrictName + "</option>");
+    //             }
+    //         });
+    //         $("#mahalle").empty().append("<option value=''>Seçiniz</option>");
+    //     });
+
+    //     // Mahalle dropdown'u doldur
+    //     $("#ilce").change(function () {
+    //         var secilenIlceId = $(this).val();
+    //         $("#mahalle").empty().append("<option value=''>Seçiniz</option>");
+    //         $.each(mahalleler, function (index, mahalle) {
+    //             if (mahalle.DistrictId == secilenIlceId) {
+    //                 $("#mahalle").append("<option value='" + mahalle.NeighborhoodId + "'>" + mahalle.NeighborhoodName + "</option>");
+    //             }
+    //         });
+    //     });
+    // });
+</script>

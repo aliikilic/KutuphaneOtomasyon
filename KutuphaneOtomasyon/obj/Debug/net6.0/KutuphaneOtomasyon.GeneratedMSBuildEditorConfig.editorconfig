@@ -1,0 +1,165 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = KutuphaneOtomasyon
+build_property.RootNamespace = KutuphaneOtomasyon
+build_property.ProjectDir = C:\Users\DELL\Desktop\WebFinalKutuphane\KutuphaneOtomasyon\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\DELL\Desktop\WebFinalKutuphane\KutuphaneOtomasyon
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/AdminAddBook/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5BZGRCb29rXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/AdminCheckDeletePerson/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5DaGVja0RlbGV0ZVBlcnNvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/AdminDeletePerson/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5EZWxldGVQZXJzb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/AdminLayout/AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MYXlvdXRcQWRtaW5MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/AdminLayout/HeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MYXlvdXRcSGVhZGVyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/AdminLayout/PreloaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MYXlvdXRcUHJlbG9hZGVyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/AdminLayout/ScriptPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MYXlvdXRcU2NyaXB0UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/AdminLayout/SidebarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MYXlvdXRcU2lkZWJhclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/AdminListBook/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MaXN0Qm9va1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/AdminMemberInfo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5NZW1iZXJJbmZvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/AdminMember/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5NZW1iZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/AdminUpdateBook/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5VcGRhdGVCb29rXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/Shared/Components/_HeaderPartialUser/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hlYWRlclBhcnRpYWxVc2VyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/Shared/Components/_HeaderPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hlYWRlclBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/Shared/Components/_LogoPartialUser/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xvZ29QYXJ0aWFsVXNlclxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/Shared/Components/_LogoPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xvZ29QYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/Shared/Components/_PreloaderPartialUser/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1ByZWxvYWRlclBhcnRpYWxVc2VyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/Shared/Components/_PreloaderPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1ByZWxvYWRlclBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/Shared/Components/_ScriptsPartialUser/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NjcmlwdHNQYXJ0aWFsVXNlclxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/Shared/Components/_ScriptsPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NjcmlwdHNQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/Shared/Components/_SidebarPartialUser/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NpZGViYXJQYXJ0aWFsVXNlclxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/Shared/Components/_SidebarPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NpZGViYXJQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/Signup/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbnVwXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/UserHome/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/UserLayout/HeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckxheW91dFxIZWFkZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/UserLayout/PreloaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckxheW91dFxQcmVsb2FkZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/UserLayout/ScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckxheW91dFxTY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/UserLayout/SidebarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckxheW91dFxTaWRlYmFyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/UserLayout/UserLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckxheW91dFxVc2VyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/WebFinalKutuphane/KutuphaneOtomasyon/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8z2ipbdrci

@@ -1,0 +1,87 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/AdminLayout.cshtml";
+}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Kitap Listesi</h4>
+                    <div class="table-responsive">
+                        <<table class="table table-striped table-bordered zero-configuration">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Kitap Adı</th>
+                                    <th>Yazar</th>
+                                    <th>Yayın Evi</th>
+                                    <th>Tür</th>
+                                    <th>Stok</th>
+                                    <th>Durum</th>
+                                </tr>
+                            </thead>
+                            
+                            <tbody>
+                                    @foreach (var item in ViewBag.BookList)
+                                    {
+
+                                        <tr>
+                                            <td>@item.BookID</td>
+                                            <td>@item.Name</td>
+                                            <td>@item.WriterName</td>
+                                            <td>@item.PublisherName</td>
+                                            <td>@item.TypeName</td>
+                                            <td>@item.Stock</td>
+                                            @if (item.isActive == true)
+                                            {
+                                                <td>
+                                                    &emsp;&emsp;&emsp;&nbsp;
+                                                    <input name="@item.isActive" readonly value="@item.isActive" checked type="checkbox" class="form-check-input">
+                                                    <a href="/AdminUpdateBook/index/@item.BookID">
+                                                        &emsp;Güncelle
+                                                    </a>
+                                                </td>
+                                            }
+                                            else
+                                            {
+                                                <td>&emsp;&emsp;&emsp;&nbsp;
+                                                <input name="@item.isActive" readonly value="@item.isActive" type="checkbox" class="form-check-input">
+                                                    <a href="/AdminUpdateBook/index/@item.BookID">
+                                                        &emsp;Güncelle
+                                                    </a>
+                                                </td>
+                                            }
+                                        </tr>
+
+                                    }
+                            </tbody>
+                            
+                            <tfoot>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Kitap Adı</th>
+                                    <th>Yazar</th>
+                                    <th>Yayın Evi</th>
+                                    <th>Tür</th>
+                                    <th>Stok</th>
+                                    <th>Durum</th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
